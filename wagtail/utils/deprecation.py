@@ -2,6 +2,10 @@ import warnings
 from importlib import import_module
 
 
+class RemovedInWagtail50Warning(DeprecationWarning):
+    pass
+
+
 class RemovedInWagtail60Warning(DeprecationWarning):
     pass
 
